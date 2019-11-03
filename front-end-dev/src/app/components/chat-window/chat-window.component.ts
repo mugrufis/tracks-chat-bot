@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {IMessage} from '../../interfaces/IMessage';
 
 @Component({
   selector: 'app-chat-window',
@@ -6,14 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat-window.component.css']
 })
 export class ChatWindowComponent implements OnInit {
-  public messages = [];
-  constructor() { }
+  constructor() {
+  }
+
+  @Input() public messages: IMessage[] = [];
+  @Output() send = new EventEmitter();
 
   ngOnInit() {
   }
 
   public sendMessage(event) {
-    console.log(event);
-    this.messages.push({text: event.message});
+    this.send.emit(event);
   }
+
+
 }

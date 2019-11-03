@@ -8,11 +8,14 @@ import {NbThemeModule, NbLayoutModule, NbChatModule} from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { ChatWindowComponent } from './components/chat-window/chat-window.component';
+import { ChatWindowControllerComponent } from './components/chat-window-controller/chat-window-controller.component';
+import {MessageService} from './services/message.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChatWindowComponent
+    ChatWindowComponent,
+    ChatWindowControllerComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,9 @@ import { ChatWindowComponent } from './components/chat-window/chat-window.compon
     AppRoutingModule,
     NbChatModule
   ],
-  providers: [],
+  providers: [
+    MessageService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

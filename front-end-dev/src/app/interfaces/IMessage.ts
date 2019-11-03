@@ -7,7 +7,7 @@ export interface IMessage {
   date: Date;
   files: undefined[];
   quote: string;
-  latilatitude: number;
+  latitude: number;
   longitude: number;
-  avatar: string; // a url string of the avatar to be shown. png on example
+  user: IUser;
 }
