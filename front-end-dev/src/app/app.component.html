@@ -1,3 +1,18 @@
-<button (click)="onClick()">Call</button>
+<nb-layout>
 
-{{reply | json}}
+  <nb-layout-header fixed>
+    <!-- Insert header here -->
+  </nb-layout-header>
+
+  <nb-layout-column>
+
+    <!--    todo add max width for huge screens-->
+    <app-chat-window></app-chat-window>
+
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+    <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>
