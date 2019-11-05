@@ -13,6 +13,8 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!!!`));
 
 //Middleware for CORS
 app.use(cors());
+
+// Parses rest call body as json automatically
 app.use(bodyParser.json());
 
 /*express.static is a built in middleware function to serve static files.
@@ -21,5 +23,5 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, ('..') , 'front-end-dist')));
 
 //Routing all HTTP requests to /aRoute to a controller
-const messageController = require('./rest-controllers/message-controller');
+const messageController = require('./controllers/message-controller');
  app.use('/message', messageController);

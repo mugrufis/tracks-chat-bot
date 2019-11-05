@@ -3,6 +3,7 @@ import {IMessage} from '../../interfaces/IMessage';
 import {Message} from '../../models/Message';
 import {User} from '../../models/User';
 import {MessageService} from '../../services/message.service';
+import {IUser} from '../../interfaces/IUser';
 
 @Component({
   selector: 'app-chat-window-controller',
@@ -11,6 +12,7 @@ import {MessageService} from '../../services/message.service';
 })
 export class ChatWindowControllerComponent implements OnInit {
   public messages: IMessage[] = [];
+  private currentUser: IUser;
 
   constructor(
     private messageService: MessageService
@@ -21,6 +23,7 @@ export class ChatWindowControllerComponent implements OnInit {
     this.messageService.getBotInitialMessage().subscribe(
       (success) => {
         this.displayBotMessage(success);
+        this.initializeCurrentUser(success);
       },
       (error) => {
         this.handleError(error);
@@ -28,8 +31,21 @@ export class ChatWindowControllerComponent implements OnInit {
     );
   }
 
+  private initializeCurrentUser(response) {
+    this.currentUser = new User(
+      '',
+      this.getUserTempID(response),
+      '',
+      ''
+    );
+  }
+
+  private actualizeCurrentUser(response) {
+    this.currentUser = response.user as IUser;
+  }
+
   public onSend(event) {
-    const lastUserMessage = new Message(event.message, true);
+    const lastUserMessage = new Message(event.message, true, this.currentUser);
     this.displayMessageInChatWindow(lastUserMessage);
 
     setTimeout(() => {
@@ -45,7 +61,11 @@ export class ChatWindowControllerComponent implements OnInit {
   }
 
   private displayBotMessage(response) {
-    this.displayMessageInChatWindow(new Message(response, false, User.TracksBot));
+    this.displayMessageInChatWindow(new Message(response.text, false, User.TracksBot));
+  }
+
+  private getUserTempID(response): string {
+    return response.user.tempID;
   }
 
   private displayMessageInChatWindow(message: IMessage) {

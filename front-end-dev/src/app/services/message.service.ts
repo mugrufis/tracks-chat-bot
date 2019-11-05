@@ -11,10 +11,10 @@ export class MessageService {
   constructor(private http: HttpClient) { }
 
   public getBotInitialMessage() {
-    return this.http.get(this.URL,  {responseType: 'text'});
+    return this.http.get(this.URL);
   }
 
   public sendMessageAndGetBotResponse(userMessage: IMessage) {
-    return this.http.post(this.URL, userMessage, {responseType: 'text'});
+    return this.http.post(this.URL, userMessage);
   }
 }
