@@ -20,28 +20,17 @@ export class ChatWindowControllerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.messageService.getBotInitialMessage().subscribe(
-      (success) => {
-        this.displayBotMessage(success);
-        this.initializeCurrentUser(success);
-      },
-      (error) => {
-        this.handleError(error);
-      }
-    );
+    this.initializeCurrentUser();
+    this.sendMessageAndGetBotResponse(new Message('', true, this.currentUser));
   }
 
-  private initializeCurrentUser(response) {
+  private initializeCurrentUser() {
+    // todo Dummy ID should be replace by actual ID
     this.currentUser = new User(
-      '',
-      this.getUserTempID(response),
+       Math.floor(Math.random() * (10 - 1 + 1) + 1).toString(),
       '',
       ''
     );
-  }
-
-  private actualizeCurrentUser(response) {
-    this.currentUser = response.user as IUser;
   }
 
   public onSend(event) {
@@ -49,31 +38,28 @@ export class ChatWindowControllerComponent implements OnInit {
     this.displayMessageInChatWindow(lastUserMessage);
 
     setTimeout(() => {
-      this.messageService.sendMessageAndGetBotResponse(lastUserMessage).subscribe(
-        (success) => {
-          this.displayBotMessage(success);
-        },
-        (error) => {
-          this.handleError(error);
-        }
-      );
-    }, 500);
+        this.sendMessageAndGetBotResponse(lastUserMessage);
+      },
+      500
+    );
+  }
+
+  private sendMessageAndGetBotResponse(lastUserMessage: IMessage) {
+    this.messageService.sendMessageAndGetBotResponse(lastUserMessage).subscribe(
+      (success) => {
+        this.displayBotMessage(success);
+      },
+      (error) => {
+       console.error(error);
+      }
+    );
   }
 
   private displayBotMessage(response) {
     this.displayMessageInChatWindow(new Message(response.text, false, User.TracksBot));
   }
 
-  private getUserTempID(response): string {
-    return response.user.tempID;
-  }
-
   private displayMessageInChatWindow(message: IMessage) {
     this.messages.push(message);
-  }
-
-  private handleError(error) {
-    // todo better error handling
-    console.error(error);
   }
 }

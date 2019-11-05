@@ -1,33 +1,19 @@
 //Require the express package and use express.Router()
 const express = require('express');
 const router = express.Router();
-const textController = require('../services/text-service.js');
-const messageService = require('../services/message-service')
+const textService = require('../services/text-service.js');
+const messageService = require('../services/message-service');
 
-let botGreeting = "To add bot greeting message";
+let botResponse = "To add actual bot response";
 
-
-// This method is called only when a user enters the chat
-// Sends a greeting along with a temporary ID until the user is identified
-router.get('/', (req, res) => {
-    res.send(
-        {
-            text: botGreeting,
-            user: {
-                tempID: messageService.newTempIDAndInitializeRelatedFile(botGreeting)
-            }
-        });
-});
-
-router.post('/', (req, res, next) => {
-    const userID = messageService.getUserID(req);
-    textController.appendToFile(user,
-        req.body.date + ' ' + user + ' ' + req.body.text
-        );
+router.post('/', (req, res) => {
+    textService.addToFile(
+        messageService.getUserID(req),
+        messageService.formatUserText(req) + messageService.formatBotText(botResponse)
+    );
 
     res.send({
-        text: "To add actual bot response",
-        user: user
+        text: botResponse
     });
 });
 
