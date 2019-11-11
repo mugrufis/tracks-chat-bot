@@ -1,19 +1,25 @@
 //Require the express package and use express.Router()
 const express = require('express');
 const router = express.Router();
-const textService = require('../services/text-service.js');
+const textService = require('../services/text-service');
 const messageService = require('../services/message-service');
+const chatBotService = require('../services/chat-bot-service');
 
-let botResponse = "To add actual bot response";
+
 
 router.post('/', (req, res) => {
+    let botReply = chatBotService.generateBotReply(req);
+    const userID = messageService.verifyUserHasID(req);
+
     textService.addToFile(
-        messageService.getUserID(req),
-        messageService.formatUserText(req) + messageService.formatBotText(botResponse)
+        userID,
+        messageService.formatUserText(req) + messageService.formatBotText(botReply.text)
     );
 
     res.send({
-        text: botResponse
+        user: messageService.getUser(req),
+        specName: botReply.specName,
+        text: botReply.text
     });
 });
 

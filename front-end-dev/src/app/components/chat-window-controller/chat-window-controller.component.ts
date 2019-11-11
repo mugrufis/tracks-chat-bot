@@ -10,9 +10,11 @@ import {IUser} from '../../interfaces/IUser';
   templateUrl: './chat-window-controller.component.html',
   styleUrls: ['./chat-window-controller.component.css']
 })
+
 export class ChatWindowControllerComponent implements OnInit {
   public messages: IMessage[] = [];
   private currentUser: IUser;
+  private currentSpecName = '';
 
   constructor(
     private messageService: MessageService
@@ -25,16 +27,15 @@ export class ChatWindowControllerComponent implements OnInit {
   }
 
   private initializeCurrentUser() {
-    // todo Dummy ID should be replace by actual ID
     this.currentUser = new User(
-       Math.floor(Math.random() * (10 - 1 + 1) + 1).toString(),
+      '',
       '',
       ''
     );
   }
 
   public onSend(event) {
-    const lastUserMessage = new Message(event.message, true, this.currentUser);
+    const lastUserMessage = this.createUSerMessage(event);
     this.displayMessageInChatWindow(lastUserMessage);
 
     setTimeout(() => {
@@ -44,15 +45,33 @@ export class ChatWindowControllerComponent implements OnInit {
     );
   }
 
+  private createUSerMessage(event): IMessage {
+    const newMessage = new Message(event.message, true, this.currentUser);
+    newMessage.specName = this.currentSpecName;
+    return newMessage;
+  }
+
   private sendMessageAndGetBotResponse(lastUserMessage: IMessage) {
     this.messageService.sendMessageAndGetBotResponse(lastUserMessage).subscribe(
       (success) => {
         this.displayBotMessage(success);
+        this.updateCurrentUser(success);
+        this.updateCurrentSpecName(success);
       },
       (error) => {
-       console.error(error);
+        console.error(error);
       }
     );
+  }
+
+  private updateCurrentSpecName(response) {
+    this.currentSpecName = response.specName;
+  }
+
+  private updateCurrentUser(response) {
+    if (!this.currentUser.id) {
+      this.currentUser.id = response.user.id;
+    }
   }
 
   private displayBotMessage(response) {
@@ -62,4 +81,5 @@ export class ChatWindowControllerComponent implements OnInit {
   private displayMessageInChatWindow(message: IMessage) {
     this.messages.push(message);
   }
+
 }

@@ -1,5 +1,8 @@
 module.exports = {
- getRandomString: function() {
-    return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    generateUniqueId: function () {
+    //    can be replaced with
+    //    read all file titles -> cast to number -> increment -> return
+    var hrTime = process.hrtime();
+    return hrTime[0] * 1000000000 + hrTime[1];
 }
 };
