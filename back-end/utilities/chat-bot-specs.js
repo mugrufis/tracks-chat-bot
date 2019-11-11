@@ -43,7 +43,7 @@ module.exports = {
             text: "Would you like to add another truck? \n Type Y to continue or N to stop."
         }
     ],
-    greeting: "Welcome to TracksForTrucks nameification recorder. " +
+    greeting: "Welcome to TracksForTrucks specification recorder. " +
         "\n Follow the instructions to provide the specifications of the trucks is your fleet. \n"
     ,
     goodbye: "Thank you very much for using our service. \n You can type restart to start again",
