@@ -1,0 +1,46 @@
+Mon Nov 11 2019 22:01:49 GMT+0100 (Central European Standard Time) Bot: Welcome to TracksForTrucks specification recorder. 
+ Follow the instructions to provide the specifications of the trucks is your fleet. 
+What is the trucks brand?
+Mon Nov 11 2019 22:01:51 GMT+0100 (Central European Standard Time) 775211000538499: a
+Mon Nov 11 2019 22:01:52 GMT+0100 (Central European Standard Time) Bot: What is the trucks model?
+Mon Nov 11 2019 22:01:52 GMT+0100 (Central European Standard Time) 775211000538499: b
+Mon Nov 11 2019 22:01:53 GMT+0100 (Central European Standard Time) Bot: What is the trucks weight?
+Mon Nov 11 2019 22:01:54 GMT+0100 (Central European Standard Time) 775211000538499: c
+Mon Nov 11 2019 22:01:54 GMT+0100 (Central European Standard Time) Bot: What is the trucks number of axles?
+Mon Nov 11 2019 22:01:55 GMT+0100 (Central European Standard Time) 775211000538499: d
+Mon Nov 11 2019 22:01:55 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum power(in hp)?
+Mon Nov 11 2019 22:01:56 GMT+0100 (Central European Standard Time) 775211000538499: e
+Mon Nov 11 2019 22:01:57 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum speed(in km/hr)?
+Mon Nov 11 2019 22:01:57 GMT+0100 (Central European Standard Time) 775211000538499: f
+Mon Nov 11 2019 22:01:58 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum torque(in Nm )?
+Mon Nov 11 2019 22:01:58 GMT+0100 (Central European Standard Time) 775211000538499: g
+Mon Nov 11 2019 22:01:59 GMT+0100 (Central European Standard Time) Bot: What is the trucks fuel tank size(in liters)?
+Mon Nov 11 2019 22:02:02 GMT+0100 (Central European Standard Time) 775211000538499: h
+Mon Nov 11 2019 22:02:02 GMT+0100 (Central European Standard Time) Bot: What is the trucks number in the fleet?
+Mon Nov 11 2019 22:02:03 GMT+0100 (Central European Standard Time) 775211000538499: i
+Mon Nov 11 2019 22:02:03 GMT+0100 (Central European Standard Time) Bot: Would you like to add another truck? 
+ Type Y to continue or N to stop.
+Mon Nov 11 2019 22:02:08 GMT+0100 (Central European Standard Time) 775211000538499: y
+Mon Nov 11 2019 22:02:08 GMT+0100 (Central European Standard Time) Bot: What is the trucks brand?
+Mon Nov 11 2019 22:02:11 GMT+0100 (Central European Standard Time) 775211000538499: a
+Mon Nov 11 2019 22:02:11 GMT+0100 (Central European Standard Time) Bot: What is the trucks model?
+Mon Nov 11 2019 22:02:12 GMT+0100 (Central European Standard Time) 775211000538499: b
+Mon Nov 11 2019 22:02:12 GMT+0100 (Central European Standard Time) Bot: What is the trucks weight?
+Mon Nov 11 2019 22:02:13 GMT+0100 (Central European Standard Time) 775211000538499: c
+Mon Nov 11 2019 22:02:13 GMT+0100 (Central European Standard Time) Bot: What is the trucks number of axles?
+Mon Nov 11 2019 22:02:14 GMT+0100 (Central European Standard Time) 775211000538499: d
+Mon Nov 11 2019 22:02:14 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum power(in hp)?
+Mon Nov 11 2019 22:02:15 GMT+0100 (Central European Standard Time) 775211000538499: e
+Mon Nov 11 2019 22:02:15 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum speed(in km/hr)?
+Mon Nov 11 2019 22:02:16 GMT+0100 (Central European Standard Time) 775211000538499: f
+Mon Nov 11 2019 22:02:16 GMT+0100 (Central European Standard Time) Bot: What is the trucks maximum torque(in Nm )?
+Mon Nov 11 2019 22:02:17 GMT+0100 (Central European Standard Time) 775211000538499: g
+Mon Nov 11 2019 22:02:17 GMT+0100 (Central European Standard Time) Bot: What is the trucks fuel tank size(in liters)?
+Mon Nov 11 2019 22:02:19 GMT+0100 (Central European Standard Time) 775211000538499: h
+Mon Nov 11 2019 22:02:19 GMT+0100 (Central European Standard Time) Bot: What is the trucks number in the fleet?
+Mon Nov 11 2019 22:02:21 GMT+0100 (Central European Standard Time) 775211000538499: i
+Mon Nov 11 2019 22:02:21 GMT+0100 (Central European Standard Time) Bot: Would you like to add another truck? 
+ Type Y to continue or N to stop.
+Mon Nov 11 2019 22:02:22 GMT+0100 (Central European Standard Time) 775211000538499: n
+Mon Nov 11 2019 22:02:23 GMT+0100 (Central European Standard Time) Bot: Thank you very much for using our service. 
+ You can type restart to start again

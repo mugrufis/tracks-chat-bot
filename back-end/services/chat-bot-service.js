@@ -20,7 +20,6 @@ module.exports = {
             return sameQuestion;
         }
 
-        this.sendUserTextToWit(messageService.getUserText(req));
         return this.getNextQuestion(req);
     },
     handleFinalQuestionReply: function (req) {
@@ -68,12 +67,10 @@ module.exports = {
     ,
     sendUserTextToWit: function (userText) {
         chatBotController.sendToAnalyze(userText);
-    }
-    ,
+    },
     generateBotGreeting: function () {
         return chatBotSpecs.greeting;
-    }
-    ,
+    },
     formatReplyObject: function (text, specName) {
         return {
             text,
