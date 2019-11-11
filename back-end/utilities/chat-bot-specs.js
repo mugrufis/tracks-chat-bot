@@ -4,38 +4,38 @@ module.exports = {
             name: 'brand',
             value: '',
             unit: ''
-        // }, {
-        //     name: 'model',
-        //     value: '',
-        //     unit: ''
-        // }, {
-        //     name: 'weight',
-        //     value: '',
-        //     unit: ''
-        // }, {
-        //     name: 'number of axles',
-        //     value: '',
-        //     unit: ''
-        // }, {
-        //     name: 'maximum power',
-        //     value: '',
-        //     unit: 'hp'
-        // }, {
-        //     name: 'maximum speed',
-        //     value: '',
-        //     unit: 'km/hr'
-        // }, {
-        //     name: 'maximum torque',
-        //     value: '',
-        //     unit: 'Nm '
-        // }, {
-        //     name: 'fuel tank size',
-        //     value: '',
-        //     unit: 'liters'
-        // }, {
-        //     name: 'number in the fleet',
-        //     value: '',
-        //     unit: ''
+        }, {
+            name: 'model',
+            value: '',
+            unit: ''
+        }, {
+            name: 'weight',
+            value: '',
+            unit: ''
+        }, {
+            name: 'number of axles',
+            value: '',
+            unit: ''
+        }, {
+            name: 'maximum power',
+            value: '',
+            unit: 'hp'
+        }, {
+            name: 'maximum speed',
+            value: '',
+            unit: 'km/hr'
+        }, {
+            name: 'maximum torque',
+            value: '',
+            unit: 'Nm '
+        }, {
+            name: 'fuel tank size',
+            value: '',
+            unit: 'liters'
+        }, {
+            name: 'number in the fleet',
+            value: '',
+            unit: ''
         },
         {
             name: "restart",
