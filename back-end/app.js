@@ -4,6 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
+// todo For a production build add to an .env file
 const port = 3000;
 
 
@@ -39,7 +40,7 @@ try {
 
 const accessToken = (() => {
  if (process.argv.length !== 3) {
-  console.log('I dont know why this is here');
+  console.log('No wit access token passed');
   process.exit(1);
  }
  return process.argv[2];

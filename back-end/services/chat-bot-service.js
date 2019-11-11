@@ -66,6 +66,7 @@ module.exports = {
     }
     ,
     sendUserTextToWit: function (userText) {
+        if (!userText) return;
         chatBotController.sendToAnalyze(userText);
     },
     generateBotGreeting: function () {

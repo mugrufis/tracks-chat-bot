@@ -4,6 +4,7 @@ module.exports = {
     getWit: function () {
 
     },
+    // todo For a production build these strings should be added to an .env file
     sendToAnalyze: function (textToAnalyze) {
         const q = encodeURIComponent(textToAnalyze);
         const uri = 'https://api.wit.ai/message?q=' + q;
