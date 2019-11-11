@@ -11,6 +11,7 @@ export class Message implements IMessage {
   text: string;
   type: string;
   user: IUser;
+  specName: string;
 
   constructor(
     text: string,

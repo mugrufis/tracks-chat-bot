@@ -1,0 +1,513 @@
+{
+   "American LaFrance":[
+      "American Lafrance Condor"
+   ],
+   "Agrale":[
+      "Agrale 6500",
+      "Agrale 8700",
+      "Agrale 10000",
+      "Agrale 14000"
+   ],
+   "AMW":[
+      "AMW TP Series",
+      "AMW TR Series",
+      "AMW HL Series",
+      "AMW TM Series",
+      "AMW CP Series"
+   ],
+   "Ashok Leyland":[
+      "Ashok Layland Avia",
+      "Ashok Leyland U-Truck"
+   ],
+   "Askam":[
+      "Askam AS 950",
+      "Askam 8 Litre",
+      "Askam Hi-Ex"
+   ],
+   "Astra":[
+      "Astra HD9"
+   ],
+   "Autocar":[
+      "Autocar Xspotter",
+      "Autocar Expert",
+      "Autocar Refuse"
+   ],
+   "Avia Trucks":[
+      "Avia D-Line"
+   ],
+   "BeiBen":[
+      "BeiBen V3 Series",
+      "BeiBen NG80 Series",
+      "BeiBen Eurysome",
+      "BeiBen Tiema Series"
+   ],
+   "Beijing Automobile Works":[
+      "BAW Dragon Flag",
+      "BAW Bell"
+   ],
+   "BharatBenz":[
+      "BharatBenz 914",
+      "BharatBenz 1214",
+      "BharatBenz 2523",
+      "BharatBenz 3128",
+      "BharatBenz 3143",
+      "BharatBenz 3723"
+   ],
+   "Bryansk Automobile Plant":[
+      "BAZ-69096",
+      "BAZ-69096 (civilian version)",
+      "BAZ-64022"
+   ],
+   "BMC (Turkey)":[
+      "BMC Fatih"
+   ],
+   "BMC":[
+      "BMC Profesyonel"
+   ],
+   "Caterpillar":[
+      "CAT CT660"
+   ],
+   "CEV":[
+      "Might-E Truck"
+   ],
+   "Chevrolet":[
+      "Chevrolet NHR",
+      "Chevrolet NKR",
+      "Chevrolet N-Series",
+      "Chevrolet Express Cutaway",
+      "Chevrolet FTR",
+      "Chevrolet FVR",
+      "Chevrolet FVZ",
+      "Chevrolet CYZ"
+   ],
+   "Citroën":[
+      "Citroën Jumper"
+   ],
+   "CCC":[
+      "CCC LET2",
+      "CCC COE2",
+      "CCC LOT2"
+   ],
+   "CNJ":[
+      "CNJ Fortune",
+      "CNJ Ruichi"
+   ],
+   "DAF Trucks":[
+      "DAF LF",
+      "DAF CF",
+      "DAF XF"
+   ],
+   "Dayun":[
+      "Dayun CGC1047PB33E3",
+      "Dayun CGC1141",
+      "Dayun DYX1250",
+      "Dayun CGC1311",
+      "Dayun DYX5310"
+   ],
+   "Dina":[
+      "Dina Hustler"
+   ],
+   "Dongfeng":[
+      "Dongfeng Palawan",
+      "Dongfeng Gold Fighter",
+      "Dongfeng Chenglong",
+      "Dongfeng Kang PA",
+      "Dongfeng Star",
+      "Dongfeng Badly",
+      "Dongfeng Days Kam",
+      "Dongfeng Likas",
+      "Dongfeng King Kong",
+      "Dongfeng Tianlong",
+      "Dongfeng Titan",
+      "Dongfeng Balong Heavy Truck",
+      "Dongfeng Dragon Card"
+   ],
+   "FAP":[
+      "FAP 1318",
+      "FAP 1824",
+      "FAP 1828",
+      "FAP 1830",
+      "FAP 2235",
+      "FAP 2640"
+   ],
+   "FAW":[
+      "FAW CA1051K26L3",
+      "FAW CA1051K26L3R5",
+      "FAW CA1037K2L",
+      "FAW CA1031K2LR5",
+      "FAW CA1031K2L",
+      "FAW CA5313CLXYP7K2L11T4",
+      "FAW CA3075K2",
+      "FAW CA4322P21K15T1YA82",
+      "FAW CA3313P7K2T4A",
+      "FAW CA4252P21K2T1A",
+      "FAW J6"
+   ],
+   "FAW-GM":[
+      "Jie Fang 1-Ton Truck",
+      "Jie Fang 2-Ton Truck",
+      "Jie Fang 3-Ton Truck"
+   ],
+   "Fiat":[
+      "Fiat Ducato"
+   ],
+   "Ford":[
+      "Ford F-650/750",
+      "Ford Econoline Cataway",
+      "Ford Cargo"
+   ],
+   "Ford Otosan":[
+      "Ford F-MAX"
+   ],
+   "Foton":[
+      "Foton Aumark Series",
+      "Foton Ollin Series",
+      "Foton Auman Series"
+   ],
+   "Freightliner":[
+      "Freigtliner M2 106",
+      "Freightliner M2 112",
+      "Freightliner Coronado Series",
+      "Freightliner Cascadia",
+      "Freightliner 108SD",
+      "Freightliner 114SD",
+      "Freightliner Century Class",
+      "Freightliner Argosy"
+   ],
+   "GAZ":[
+      "GAZ 3307 /3309",
+      "GAZ 3308 Sadko",
+      "GAZ Gazelle",
+      "GAZelle NEXT",
+      "GAZon NEXT",
+      "GAZ Sadko NEXT",
+      "GAZ Valdai"
+   ],
+   "GINAF":[
+      "GINAF C-Series",
+      "GINAF X-Series"
+   ],
+   "Hino":[
+      "Hino 300 Series",
+      "Hino 238",
+      "Hino 500 Series",
+      "Hino 700 Series"
+   ],
+   "Hyundai":[
+      "Hyundai HD45",
+      "Hyundai HD65/72/78",
+      "Hyundai H350",
+      "Hyundai Mighty",
+      "Hyundai HD120/210",
+      "Hyundai Cargo Truck",
+      "Hyundai Xcient"
+   ],
+   "Iran Khodro Diesel":[
+      "Khawar 1934"
+   ],
+   "Isuzu":[
+      "Isuzu N-Series",
+      "Mazda Titan",
+      "Isuzu Elf",
+      "Isuzu Forward",
+      "Isuzu Giga"
+   ],
+   "Iveco":[
+      "Iveco Daily",
+      "Iveco PowerStar",
+      "Iveco Eurocargo",
+      "Iveco Trakker",
+      "Iveco Stralis"
+   ],
+   "JAC":[
+      "JAC 4DA1 Series",
+      "JAC FHC Series",
+      "JAC Shuailing",
+      "JAC Tipper",
+      "JAC Tractor"
+   ],
+   "JMC":[
+      "JMC Carrying"
+   ],
+   "Kalmar Industries":[
+      "Kalmar 4x2 off Highway",
+      "Kalmar TR-Series"
+   ],
+   "KAMAZ":[
+      "KAMAZ 43253",
+      "KAMAZ 43114",
+      "KAMAZ 65207",
+      "KAMAZ 65117",
+      "KAMAZ 4326",
+      "KAMAZ 4308",
+      "KAMAZ 54115",
+      "KAMAZ 5460",
+      "KAMAZ 5490",
+      "KAMAZ 65116",
+      "KAMAZ 65206",
+      "KAMAZ 6460",
+      "KAMAZ 44108",
+      "KAMAZ 65201",
+      "KAMAZ 65224",
+      "KAMAZ 65225",
+      "KAMAZ 65226"
+   ],
+   "Kia":[
+      "Kia Bongo"
+   ],
+   "Kenworth":[
+      "Kenworth K270",
+      "Kenworth T170",
+      "Kenworth T409SAR",
+      "Kenworth T359",
+      "Kenworth C500",
+      "Kenworth C509",
+      "Kenworth T800",
+      "Kenworth W900",
+      "Kenworth T660",
+      "Kenworth T659",
+      "Kenworth T700",
+      "Kenworth T680",
+      "Kenworth T880",
+      "Kenworth T909"
+   ],
+   "KrAZ":[
+      "KrAZ-6322",
+      "KrAZ-6505",
+      "KrAZ-6510",
+      "KrAZ-6443",
+      "KrAZ-5233",
+      "KrAZ H12.2",
+      "KrAZ H23.2",
+      "KrAZ S20.2",
+      "KrAZ S26.2M",
+      "KrAZ H27.3",
+      "KrAZ-5401"
+   ],
+   "Mack Trucks":[
+      "Mack Pinnacle Series",
+      "Mack Titan",
+      "Mack Granite",
+      "Mack TerraPro",
+      "Mack Metro-Liner",
+      "Mack Super-Liner"
+   ],
+   "Mahindra Navistar":[
+      "Mahindra Navistar DI3200",
+      "Mahindra Navistar Loadking Zoom",
+      "Mahindra Navistar Torro",
+      "Mahindra Navistar Traco",
+      "Mahindra Navistar Truxo"
+   ],
+   "Master":[
+      "Master Highland",
+      "Master Forland",
+      "Master Foton",
+      "Master Grande"
+   ],
+   "MAZ":[
+      "MAZ-5309",
+      "MAZ-4371",
+      "MAZ-447131",
+      "MAZ-6440",
+      "MAZ-6312",
+      "MAZ-5440",
+      "MAZ-5433"
+   ],
+   "Mercedes-Benz":[
+      "Mercedes-Benz Atego",
+      "Mercedes-Benz Axor",
+      "Mercedes-Benz Unimog",
+      "Mercedes-Benz Zetros",
+      "Mercedes-Benz Actros",
+      "Mercedes-Benz Arocs",
+      "Mercedes-Benz Sprinter"
+   ],
+   "Mitsubishi Fuso":[
+      "Mitsubishi Fuso Canter",
+      "Mitsubishi Fuso Fighter",
+      "Mitsubishi Fuso The Great",
+      "Mitsubishi Fuso Super Great"
+   ],
+   "MZKT":[
+      "MZKT - 75165",
+      "MZKT - 7402",
+      "MZKT - 692371"
+   ],
+   "Navistar International":[
+      "International Citystar",
+      "International LoadStar",
+      "International TerraStar",
+      "International DuraStar",
+      "International Transtar",
+      "International 9200i",
+      "International 9400i",
+      "International 9800i",
+      "International 9900i",
+      "International LoneStar",
+      "International WorkStar",
+      "International PayStar",
+      "International ProStar+"
+   ],
+   "Nissan":[
+      "Nissan Atlas",
+      "Renault Maxity"
+   ],
+   "MAN":[
+      "MAN TGE",
+      "MAN TG L",
+      "MAN TGM",
+      "MAN TGS",
+      "MAN TGX"
+   ],
+   "Peterbilt":[
+      "Peterbilt 210",
+      "Peterbilt 320",
+      "Peterbilt 325",
+      "Peterbilt 348",
+      "Peterbilt 365",
+      "Peterbilt 382",
+      "Peterbilt 384",
+      "Peterbilt 389",
+      "Peterbilt 587",
+      "Peterbilt 579"
+   ],
+   "Peterblit":[
+      "Peterbilt 386"
+   ],
+   "Peugeot":[
+      "Peugeot Boxer"
+   ],
+   "Renault Trucks":[
+      "Renault Midlum",
+      "Renault Access",
+      "Renault Kerax",
+      "Renault Premium",
+      "Renault C",
+      "Renault T"
+   ],
+   "Roman":[
+      "Roman 12.250 F"
+   ],
+   "SAIC-Iveco Hongyan":[
+      "Hongyan Cargo Truck",
+      "Hongyan Tractor",
+      "Hongyan Dump Truck",
+      "Hongyan Tanker Truck"
+   ],
+   "Scania":[
+      "Scania P-series",
+      "Scania G-series",
+      "Scania R-series"
+   ],
+   "Shaanxi":[
+      "Shaanxi Olong Tractor Truck",
+      "Shaanxi Delong Tractor Truck"
+   ],
+   "Silant":[
+      "Silant 3.3 TD"
+   ],
+   "Sinotruk":[
+      "Sinotruk Steyr",
+      "Sinotruk HOWO T7H",
+      "Sinotruk HOWO T5G"
+   ],
+   "Sisu":[
+      "Sisu Polar",
+      "Sisu Rock"
+   ],
+   "Smith":[
+      "Smith Newton"
+   ],
+   "SML Isuzu":[
+      "SML Super"
+   ],
+   "SNVI":[
+      "SNVI truck M120",
+      "SNVI truck TC260"
+   ],
+   "Tata":[
+      "Tata Construck",
+      "Tata Novus",
+      "Tata Prima"
+   ],
+   "Tata Daewoo":[
+      "Tata Daewoo Novus",
+      "Tata Daewoo Prima"
+   ],
+   "Tatra Trucks":[
+      "Tatra Phoenix",
+      "Tatra T815 TerrN°2",
+      "Tatra 810",
+      "Tatra Jamal"
+   ],
+   "Toyota":[
+      "Toyota Dyna"
+   ],
+   "UAZ":[
+      "UAZ-3303",
+      "UAZ Cargo"
+   ],
+   "UD Trucks":[
+      "Nissan Cabstar",
+      "UD Condor",
+      "UD Big Thumb",
+      "UD Quon"
+   ],
+   "UralAZ":[
+      "Ural-4320",
+      "Ural-43206",
+      "Ural-4320-3951",
+      "Ural-432065",
+      "Ural-44202",
+      "Ural-5323",
+      "Ural-6368",
+      "Ural-6370",
+      "Ural Next"
+   ],
+   "Volkswagen Truck & Bus":[
+      "Volkswagen Constellation",
+      "Volkswagen Delivery",
+      "Volkswagen Worker"
+   ],
+   "Volkswagen Commercial Vehicles":[
+      "Volkswagen Crafter"
+   ],
+   "Volvo Trucks":[
+      "Volvo FE",
+      "Volvo FM",
+      "Volvo VHD",
+      "Volvo VM",
+      "Volvo FH",
+      "Volvo FMX",
+      "Volvo VN",
+      "Volvo VNX"
+   ],
+   "Wanshan Special Vehicle":[
+      "WS5250",
+      "WS5470"
+   ],
+   "Wuzheng Auto Works":[
+      "A series",
+      "V series",
+      "D series"
+   ],
+   "Western Star":[
+      "Western Star 4700",
+      "Western Star 4800",
+      "Western Star 4900",
+      "Western Star 6900"
+   ],
+   "Yulon":[
+      "Yue Loong Homer"
+   ],
+   "Zastava Trucks":[
+      "Zastava EuroZeta",
+      "Zastava ZK- 101"
+   ],
+   "ZiL":[
+      "ZIL-4327",
+      "ZIL-4331",
+      "ZIL-5301 \"Bychok\""
+   ]
+}

@@ -1,0 +1,330 @@
+{
+   "Agricola":[
+      "Agricola 25 GT 4x4"
+   ],
+   "Alfa Romeo":[
+      "Alfa Romeo A15",
+      "Alfa Romeo 50",
+      "Alfa Romeo 85",
+      "Alfa Romeo 350",
+      "Alfa Romeo 430",
+      "Alfa Romeo 900",
+      "Alfa Romeo 950",
+      "Alfa Romeo Mille",
+      "Alfa Romeo 500",
+      "Alfa Romeo 800"
+   ],
+   "Avia":[
+      "Avia A15",
+      "Avia A30",
+      "Avia A60/65/75/80"
+   ],
+   "Amur":[
+      "AMUR-531350"
+   ],
+   "Barkas":[
+      "Barkas B1000"
+   ],
+   "Bering Truck":[
+      "Bering LD15",
+      "Bering MD23",
+      "Bering HDMX"
+   ],
+   "BMC":[
+      "BMC Megastar"
+   ],
+   "Büssing":[
+      "Büssing Commodore",
+      "Büssing BS 16 L",
+      "MAN Büssing",
+      "Büssing LS 77"
+   ],
+   "Csepel":[
+      "Csepel D350",
+      "Csepel D400/D420",
+      "Csepel D450",
+      "Csepel D344",
+      "Csepel 700 Series",
+      "Csepel D452/D453",
+      "Csepel D708",
+      "Csepel D730",
+      "Csepel D717",
+      "Csepel D750",
+      "Csepel D752 Series"
+   ],
+   "Diamond T":[
+      "Diamond T 630",
+      "Diamond T 969A Wercker"
+   ],
+   "Ernst Grube":[
+      "Ernst Grube H6",
+      "Sachsenring S4000-1",
+      "Ernst Grube G5"
+   ],
+   "Fabrika automobila Priboj (FAP)":[
+      "FAP 13.14"
+   ],
+   "FAP":[
+      "FAP 18.20",
+      "FAP 22.22",
+      "FAP 19.21",
+      "FAP 19.215",
+      "FAP 15.16/15.20",
+      "FAP 10.16",
+      "FAP 1213/1216",
+      "FAP 1620"
+   ],
+   "Fabryka Samochodów Ciężarowych (FSC)":[
+      "FSC Żuk"
+   ],
+   "FSC":[
+      "FSC Lublin"
+   ],
+   "FSC Star":[
+      "Star 20",
+      "Star 21",
+      "Star 66",
+      "Star 25",
+      "Star 27",
+      "Star 660",
+      "Star 28/29",
+      "Star 200",
+      "Star 244",
+      "Star 266",
+      "Star 742",
+      "Star 744",
+      "Star 1142",
+      "Star 8.125",
+      "Star 12.157"
+   ],
+   "Star":[
+      "Star S2000",
+      "Star 14.227"
+   ],
+   "GAZ":[
+      "GAZ AA",
+      "GAZ-AAA",
+      "GAZ-51",
+      "GAZ-63",
+      "GAZ -52 /53",
+      "GAZ-66"
+   ],
+   "Horch":[
+      "Horch H3",
+      "Horch H3A"
+   ],
+   "Industrieverband Fahrzeugbau (IFA), Industriewerke Ludwigsfelde plant":[
+      "IFA W50",
+      "IFA W50LA",
+      "IFA L60/1218",
+      "IFA L60/1218PB"
+   ],
+   "Jelcz":[
+      "Zubr A80",
+      "Jelcz 300 Series",
+      "Jelcz 640 Series",
+      "Jelcz 410 series",
+      "Jelcz 600 series"
+   ],
+   "Kutaisi Automobile Plant":[
+      "KAZ-606 Colchis",
+      "KAZ-608 Colchis",
+      "KAZ-608B Colchis",
+      "KAZ-4540"
+   ],
+   "KrAZ":[
+      "KrAZ-219",
+      "KrAZ-221",
+      "KrAZ-222",
+      "KrAZ-214",
+      "KrAZ-257",
+      "KrAZ-258",
+      "KrAZ-256B",
+      "KrAZ-255",
+      "KrAZ-250",
+      "KrAZ-260"
+   ],
+   "KZKT":[
+      "KZKT-535",
+      "KZKT-537",
+      "KZKT-7428 Rusich",
+      "KZKT-8005"
+   ],
+   "LIAZ":[
+      "LiAZ 100 Series"
+   ],
+   "LiAZ":[
+      "LiAZ 200 Series",
+      "LiAZ S/FZ Series",
+      "LiAZ 300 Series"
+   ],
+   "Minsk Automobile Plant (MAZ)":[
+      "MAZ-200",
+      "MAZ-205",
+      "MAZ-535",
+      "MAZ-501",
+      "MAZ-502",
+      "MAZ-537",
+      "MAZ-543",
+      "MAZ-500",
+      "MAZ-503",
+      "MAZ-504",
+      "MAZ-516",
+      "MAZ-509",
+      "MAZ-5335",
+      "MAZ-5549",
+      "MAZ-5429"
+   ],
+   "Multicar":[
+      "Multicar M24",
+      "Multicar M25",
+      "Multicar M26"
+   ],
+   "MAN":[
+      "MAN HX"
+   ],
+   "Praga":[
+      "Praga N",
+      "Praga L",
+      "Praga AN",
+      "Praga ND/SND",
+      "Praga TN/TNHP",
+      "Praga TOV",
+      "Praga RN/RND",
+      "Praga V3S",
+      "Praga S5T",
+      "Praga S5T-2TN",
+      "Praga UV80",
+      "Praga NTS-265"
+   ],
+   "Renault Trucks":[
+      "Renault Magnum"
+   ],
+   "Riga Autobus Factory":[
+      "RAF-33111"
+   ],
+   "Sachsenring":[
+      "Sachsenring S4000"
+   ],
+   "Škoda":[
+      "Skoda 304/306"
+   ],
+   "Skoda":[
+      "Skoda-Sentinel",
+      "Skoda-550",
+      "Skoda-104/154",
+      "Skoda-304/306",
+      "Skoda-504/506",
+      "Skoda-404D/606D",
+      "Skoda-206",
+      "Skoda-656D/806D",
+      "Skoda-254D",
+      "Skoda-100/150",
+      "Skoda-256B",
+      "Skoda-706D",
+      "Skoda-706R",
+      "Škoda 1203"
+   ],
+   "Skoda-Laurin & Klement":[
+      "Skoda-Laurin-Klement-505/545"
+   ],
+   "Skoda-Laurin-Klement":[
+      "Skoda-Laurin-Klement-125"
+   ],
+   "Skoda-LIAZ":[
+      "Skoda-706RT",
+      "Skoda-LIAZ-706MT",
+      "Skoda-LiAZ 100 Series",
+      "Skoda-LiAZ 200 Series",
+      "Skoda-LiAZ S/FZ Series",
+      "Skoda-LiAZ 300 Series",
+      "Skoda-LIAZ-Xena"
+   ],
+   "Sterling Trucks":[
+      "Sterling 360",
+      "Sterling Acterra",
+      "Sterling Set Forward L-Line",
+      "Sterling Set Back L-Line",
+      "Sterling Set Back A-Line"
+   ],
+   "Tatra":[
+      "Tatra TL4",
+      "Tatra 13",
+      "Tatra 26",
+      "Tatra T23",
+      "Tatra T24",
+      "Tatra T43/T52",
+      "Tatra T27",
+      "Tatra 82",
+      "Tatra T92",
+      "Tatra T93",
+      "Tatra T85/T91",
+      "Tatra T81",
+      "Tatra T111",
+      "Tatra T128",
+      "Tatra T141",
+      "Tatra T805",
+      "Tatra T138",
+      "Tatra T813",
+      "Tatra T148",
+      "Tatra T815",
+      "Tatra T815 TerrNo1"
+   ],
+   "Trnavské automobilové závody (TAZ)":[
+      "TAZ 1500"
+   ],
+   "UralZiS":[
+      "UralZiS-355M"
+   ],
+   "UralAZ":[
+      "Ural-375",
+      "Ural-377",
+      "Ural-4322"
+   ],
+   "VEB Fahrzeugwerk Mölkau":[
+      "IFA Picco max 4"
+   ],
+   "VEB Robur-Werke":[
+      "Robur Garant",
+      "Robur LO 2500/LD2500",
+      "Robur Lo 1800A",
+      "Robur LO/LD 2501",
+      "Robur 1801A",
+      "Robur LO/LD 3000",
+      "Robur LO 2202A",
+      "Robur LD/LO 3001/3002"
+   ],
+   "Robur-Werke":[
+      "Robur LD3004"
+   ],
+   "YaAZ":[
+      "Ya-3",
+      "Ya-4",
+      "Ya-5",
+      "YaG-3",
+      "YaG-10",
+      "YaG-6",
+      "YaAZ-200",
+      "YaAZ-210",
+      "YaAZ-214",
+      "YaAZ-221",
+      "YaAZ-222"
+   ],
+   "ZiS":[
+      "ZIS-5",
+      "ZIS-6",
+      "ZIS-150",
+      "ZiS-151"
+   ],
+   "ZiL":[
+      "ZIL-157",
+      "ZIL-130",
+      "ZIL 131",
+      "ZiL-133",
+      "ZiL-4334",
+      "ZiL-6309"
+   ],
+   "Zmaj":[
+      "Zmaj-3200"
+   ]
+}

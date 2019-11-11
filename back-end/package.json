@@ -4,14 +4,15 @@
   "description": "Home task for Tracks gmbh",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app PKCJ6IOTOVK3KHHX2BDN2AFAKUXDYAQA",
     "cstart": "set DEBUG=express:* & nodemon app"
   },
   "author": "Theo Sioris",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-wit": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"

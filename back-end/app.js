@@ -25,3 +25,25 @@ app.use(express.static(path.join(__dirname, ('..') , 'front-end-dist')));
 //Routing all HTTP requests to /aRoute to a controller
 const messageController = require('./controllers/message-controller');
  app.use('/message', messageController);
+
+let Wit = null;
+let interactive = null;
+try {
+ // if running from repo
+ Wit = require('../').Wit;
+ interactive = require('../').interactive;
+} catch (e) {
+ Wit = require('node-wit').Wit;
+ interactive = require('node-wit').interactive;
+}
+
+const accessToken = (() => {
+ if (process.argv.length !== 3) {
+  console.log('I dont know why this is here');
+  process.exit(1);
+ }
+ return process.argv[2];
+})();
+
+const client = new Wit({accessToken});
+interactive(client);
